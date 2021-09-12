@@ -4,8 +4,6 @@
 
 # Used tecnologies:
 
-## ReactJS
-
-## React Router
-
-## HTML / CSS / JS
+ReactJS
+React Router
+HTML / CSS / JS
