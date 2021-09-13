@@ -42,7 +42,7 @@ const PasswordReset = () => {
   }
 
   return (
-    <div>
+    <section className="animationLeft">
       <Head title="Redefinir senha" description="Redefinir senha" />
 
       <h1 className="title">Redefinir Senha</h1>
@@ -61,7 +61,7 @@ const PasswordReset = () => {
         )}
       </form>
       <Error error={error} />
-    </div>
+    </section>
   );
 };
 

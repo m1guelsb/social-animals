@@ -1,4 +1,4 @@
-export const API_URL = 'https://dogsapi.origamid.dev/json'; //coloca a url geral da api na variavel pra ser usada facilmente depois
+export const API_URL = process.env.REACT_APP_API_URL; //coloca a url geral da api na variavel pra ser usada facilmente depois
 
 export function TOKEN_POST(body) {
   //funcao pra validacao de usuario por token, parametro body faz referencia a qual infos vao no body (no caso user e senha), pra saber se o token de tal usuario existe no server

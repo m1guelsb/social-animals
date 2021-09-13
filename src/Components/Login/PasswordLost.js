@@ -24,7 +24,7 @@ const PasswordLost = () => {
   }
 
   return (
-    <section>
+    <section className="animationLeft">
       <Head title="Senha perdida" description="Senha perdida" />
 
       <h1 className="title">Perdeu a senha?</h1>
